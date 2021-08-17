@@ -36,8 +36,8 @@ format.bracket_spacing=false
 module.file_ext=.js
 module.file_ext=.json
 module.file_ext=.ios.js
-server.max_workers=0
-log.file=flow.log
+# server.max_workers=0
+log.file=../flow.log
 munge_underscores=true
 
 module.name_mapper='^react-native$' -> '<PROJECT_ROOT>/index.js'
@@ -71,4 +71,4 @@ untyped-import
 untyped-type-import
 
 [version]
-^0.156.0
+^0.157.0
