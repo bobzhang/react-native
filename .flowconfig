@@ -30,7 +30,8 @@ flow/
 
 [options]
 emoji=true
-
+log.file=flow.log
+server.max_workers=0
 exact_by_default=true
 
 format.bracket_spacing=false
